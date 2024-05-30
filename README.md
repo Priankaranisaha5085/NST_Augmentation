@@ -15,9 +15,9 @@ from keras.layers import Conv2D
 import PIL
 
 ## Parameters to be set
-learning_rate=0.02
-beta_1=0.99
-epsilon= 1e-1
+learning_rate=0.02,
+beta_1=0.99,
+epsilon= 1e-1,
 epochs=10
 
 ## Dataset for Style and Content folder
