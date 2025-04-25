@@ -20,7 +20,9 @@ To evaluate the effectiveness of our augmentation strategy, we classify both the
 ```
 NST_Augmentation/
 │
-├── data/                   # Dataset directory
+├── images/                   # Data directory
+    ├── data/
+    ├── results/
 ├── src/                    # Source code for NST and augmentation
 │   ├── models/             # Models for NST Augmentation and Classification
 │   ├── utils/              # Helper functions and utilities
@@ -60,16 +62,6 @@ Follow these steps to set up and run the project on your local machine.
    ```bash
    python src/NST_Augmentation.py
    ```
-
-## 📊 Examples and Results
-Here are some examples of augmented and stylized outputs generated using this project:
-
-### Original Image
-![Original](examples/original.jpg)
-
-### Stylized Image (After NST + Augmentation)
-![Stylized](examples/stylized.jpg)
-
 ## 📜 License
 This project is licensed under the [MIT License](LICENSE)
 
