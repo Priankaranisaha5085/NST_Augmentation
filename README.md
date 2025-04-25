@@ -23,7 +23,7 @@ NST_Augmentation/
 ├── images/                   # Data directory
     ├── data/
     ├── results/
-├── src/                    # Source code for NST and augmentation
+├── src/                    # Source code
 │   ├── models/             # Models for NST Augmentation and Classification
 │   ├── utils/              # Helper functions and utilities
 │
