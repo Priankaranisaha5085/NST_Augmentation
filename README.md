@@ -22,8 +22,7 @@ NST_Augmentation/
 │
 ├── data/                   # Dataset directory
 ├── src/                    # Source code for NST and augmentation
-│   ├── models/             # Pre-trained models for NST
-│   ├── augmentation/       # Augmentation strategies and implementations
+│   ├── models/             # Models for NST Augmentation and Classification
 │   ├── utils/              # Helper functions and utilities
 │
 │
