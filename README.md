@@ -13,12 +13,6 @@ To evaluate the effectiveness of our augmentation strategy, we classify both the
 
 📊 Performance Evaluation: Assesses augmentation quality by training a fine-tuned ResNet50 classifier, showing a significant accuracy boost (from ~56% to 99.70%).
 
-## 🛠️ Technologies and Tools
-- **Programming Language:** Python
-- **Libraries and Frameworks:**  TensorFlow(Version: 2.13.0+nv23.8), Keras, Horovod, Numpy, time.
-- **Platforms:** Honeynet Server, DGX
-- **Visualization:** Matplotlib, Seaborn
-- To ensure compatibility and optimized performance on NVIDIA GPUs, it is better to use NVIDIA’s pre-built TensorFlow container **nvcr.io/nvidia/tensorflow:23.12-tf2-py3**
 ## 📂 Repository Structure
 ```
 NST_Augmentation/
@@ -29,8 +23,6 @@ NST_Augmentation/
 │   ├── augmentation/       # Augmentation strategies and implementations
 │   ├── utils/              # Helper functions and utilities
 │
-├── notebooks/              # Jupyter notebooks for experiments and demos
-├── tests/                  # Unit tests for the codebase
 │
 ├── requirements.txt        # List of technologies and tools
 ├── README.md               # Project overview (this file)
@@ -64,7 +56,7 @@ Follow these steps to set up and run the project on your local machine.
 2. Configure your augmentation and NST settings in the `src/` directory.
 3. Run the main script to generate stylized images:
    ```bash
-   python src/main.py
+   python src/NST_Augmentation.py
    ```
 
 ## 📊 Examples and Results
@@ -76,37 +68,7 @@ Here are some examples of augmented and stylized outputs generated using this pr
 ### Stylized Image (After NST + Augmentation)
 ![Stylized](examples/stylized.jpg)
 
-View more examples in the `examples/` directory.
-
-## 🤝 Contributing
-We welcome contributions to improve this project! Please check the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute.
-
 ## 📜 License
 This project is licensed under the [MIT License](LICENSE)
-
-## Packages to be installed
-import os
-import time
-import numpy as np
-import tensorflow as tf
-import horovod.tensorflow.keras as hvd
-from tensorflow import keras(Version: 2.13.1)
-from keras.models import Model
-from keras.applications.resnet50 import ResNet50, preprocess_input
-from keras.layers import Conv2D
-import PIL
-
-## Parameters to be set
-learning_rate=set the learning rate between 0 to 1,
-beta_1=set the beta value in between 0 to 1,
-epsilon= set the epsilon value in between 1e-1 to 1e-2,
-Number of Epochs= Set the epochs
-
-## Dataset for Style and Content folder
-https://www.onlinemedicalimages.com/index.php/en/
-
-
-## Classification of Augmented data
-After augmentation for classification execute "Resnet classification code.m".
 
 
