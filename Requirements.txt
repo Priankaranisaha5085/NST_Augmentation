@@ -1,1 +1,7 @@
-
+## 🛠️ Technologies and Tools
+- **Programming Language:** Python
+- **Libraries and Frameworks:**  TensorFlow(Version: 2.13.0+nv23.8), Keras, Horovod, Numpy, time.
+- **Visualization:** Matplotlib, Seaborn
+-**Platforms:** Honeynet Server, DGX
+      - To ensure compatibility and optimized performance on NVIDIA GPUs, it is better to use NVIDIA’s pre-built TensorFlow container **nvcr.io/nvidia/tensorflow:23.10-tf2-py3** for augmenting the data
+      - In case of classification use the container **nvcr.io/nvidia/tensorflow:23.10-tf2-py3**
