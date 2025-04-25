@@ -13,6 +13,9 @@ To evaluate the effectiveness of our augmentation strategy, we classify both the
 
 📊 Performance Evaluation: Assesses augmentation quality by training a fine-tuned ResNet50 classifier, showing a significant accuracy boost (from ~56% to 99.70%).
 
+![Architecture Overview](images/13.png)
+
+
 ## 📂 Repository Structure
 ```
 NST_Augmentation/
