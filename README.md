@@ -12,8 +12,8 @@ To evaluate the effectiveness of our augmentation strategy, we classify both the
 ⚡ Parallelized Training with Horovod: Utilizes Horovod for distributed deep learning, scaling across 8 GPUs for efficient NST training.
 
 📊 Performance Evaluation: Assesses augmentation quality by training a fine-tuned ResNet50 classifier, showing a significant accuracy boost (from ~56% to 99.70%).
-
-![Architecture Overview](images/13.png)
+## Overall Proposed work
+![Architecture Overview](images/overall.png)
 
 
 ## 📂 Repository Structure
